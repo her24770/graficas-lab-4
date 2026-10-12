@@ -11,14 +11,14 @@ use triangle::triangle;
 const WIDTH: usize = 800;
 const HEIGHT: usize = 600;
 
-const BACKGROUND: u32 = 0x0F0F19; // color de fondo
-const SHIP_COLOR: u32 = 0xE6E6EB; // color de la nave
+const BACKGROUND: u32 = 0x120B1A; // color de fondo
+const SHIP_COLOR: u32 = 0xBA68C8; // color de la nave
 
 // Como se ve la nave (en grados). Cambialos para verla desde otro lado.
 // VIEW_PITCH: inclinacion de la camara (90 = vista desde arriba).
 // VIEW_YAW: giro alrededor de la nave.
-const VIEW_PITCH: f32 = 60.0;
-const VIEW_YAW: f32 = 12.0;
+const VIEW_PITCH: f32 = 50.0;
+const VIEW_YAW: f32 = -20.0;
 
 // Oscurece un color 0xRRGGBB multiplicandolo por k (0 a 1).
 fn shade(color: u32, k: f32) -> u32 {
