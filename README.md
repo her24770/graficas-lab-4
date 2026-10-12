@@ -10,7 +10,7 @@ triángulos recorriendo las caras y usando los índices para obtener los 3 vért
 
 1. `src/obj.rs`: lee `v x y z` y `f a/b/c ...` (índices desde 1 → se resta 1).
 2. `src/main.rs` (`render`): gira los vértices, calcula el centro y escala para que la nave
-   quede centrada ocupando ~80 % de la ventana, y recorre todas las caras.
+   quede centrada ocupando ~70 % de la ventana, y recorre todas las caras.
 3. `src/triangle.rs`: `triangle(fb, a, b, c)` rellena un triángulo (coordenadas baricéntricas).
 4. `src/framebuffer.rs`: buffer de píxeles (`clear`, `point`, colores) y guardado a PNG.
 
